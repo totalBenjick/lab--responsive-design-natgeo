@@ -1,0 +1,281 @@
+* {
+  border-size: box-size;
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif; }
+
+/* todos van a tener 767 de widht? no solo por defecto aa*/
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+  .container .container__marco {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  .container .menu {
+    display: none; }
+    .container .menu__list {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0 10px;
+      display: none; }
+    .container .menu__option {
+      padding: 0 12px;
+      border-left: 5px solid yellow; }
+    .container .menu__link {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.54);
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold; }
+  .container .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*esto se modifica al restirarse*/
+    background-color: white; }
+  .container .tree {
+    padding-top: -50px;
+    width: 15%; }
+  .container .incy {
+    position: relative;
+    font-size: 40px;
+    top: 0px;
+    right: 25px; }
+  .container .fa.fa-bars {
+    color: gray;
+    height: 100%; }
+  .container .secure {
+    padding-top: 50px; }
+  .container .people {
+    padding: 20px 0px 20px 20px;
+    width: 90%;
+    font-family: 'Georgia', 'Palatino', serif;
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-weight: bolder; }
+    .container .people__uno {
+      font-size: 35px;
+      padding: 10px 20px 10px 20px;
+      letter-spacing: 6px; }
+    .container .people__see {
+      width: 12%;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      box-shadow: inset 0 -0.175em white, inset 0 -0.4em yellow; }
+  .container .replica {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  .container .replica__box {
+    width: 80%;
+    height: auto;
+    min-height: auto;
+    max-height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto;
+    padding: 3px; }
+  .container .imag {
+    width: 95%;
+    margin: 10px auto; }
+  .container .nombre {
+    padding: 10px 0px 10px 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600; }
+  .container .texto {
+    width: 100%;
+    line-height: 1.6;
+    padding: 10px; }
+  .container .amarillo {
+    background-color: #fecd2f;
+    width: 85%;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 5px solid black;
+    margin: 2px auto; }
+  .container .cuatro {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white; }
+    .container .cuatro__uno {
+      width: 100%;
+      height: auto;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-content: center; }
+    .container .cuatro__text {
+      width: 30%;
+      height: auto;
+      text-align: center;
+      margin: 10px auto;
+      font-weight: 600;
+      font-size: 20px; }
+    .container .cuatro__icons {
+      margin: 10px auto;
+      color: white;
+      text-aling: center;
+      font-size: 40px; }
+      .container .cuatro__icons .fa.fa-twitter {
+        color: #38a9ee; }
+      .container .cuatro__icons .fa.fa-facebook {
+        color: #425499; }
+      .container .cuatro__icons .fa.fa-instagram {
+        color: #577da5; }
+    .container .cuatro__dos {
+      width: 100%;
+      height: auto;
+      margin: 50px auto;
+      display: flex;
+      flex-direction: column;
+      align-content: center; }
+    .container .cuatro__tres {
+      margin: 50px auto; }
+    .container .cuatro__textdos {
+      width: 70%;
+      height: auto;
+      text-align: center;
+      margin: 10px auto;
+      font-weight: 600;
+      font-size: 15px; }
+    .container .cuatro__see {
+      margin: 10px auto;
+      width: 6%;
+      font-size: 20px;
+      padding: 10px;
+      box-shadow: inset 0 -0.175em #333333, inset 0 -0.3em yellow; }
+  .container .gris {
+    width: 100%;
+    background-color: #aaaaaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .container .suscrip {
+    height: 20%;
+    margin-top: 10px;
+    border-left: 1px solid gray;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px; }
+  .container .input {
+    width: 30%; }
+  .container .follow {
+    height: 20%;
+    margin-top: 10px;
+    border-left: 1px solid gray;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px; }
+  .container .submit {
+    width: 40%;
+    height: auto;
+    background-color: #fecd2f;
+    color: black;
+    font-size: 10px;
+    border: 0;
+    padding: 0; }
+  .container .endos {
+    display: flex; }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellow; }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .container .replica .replica__box {
+      width: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+    .container .replica .divmid {
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+    .container .cuatro {
+      width: 100%;
+      background-color: #333333;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      color: white;
+      flex-wrap: wrap; }
+      .container .cuatro__uno {
+        width: 50%;
+        height: 100pxs;
+        margin-top: 100px; }
+      .container .cuatro__dos {
+        width: 48%;
+        height: auto;
+        margin: 0; }
+      .container .cuatro__nova {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0; } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: lightblue; }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .container .replica .replica__box {
+      width: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+    .container .replica .divmid {
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+    .container .cuatro {
+      width: 100%;
+      background-color: #333333;
+      display: flex;
+      flex-direction: inline-block;
+      align-content: space-around;
+      color: white; }
+      .container .cuatro__uno {
+        width: 24%;
+        height: 100pxs;
+        margin-top: 100px; }
+      .container .cuatro__dos {
+        width: 24%;
+        height: auto;
+        margin: 0; }
+      .container .cuatro__nova {
+        display: flex;
+        flex-direction: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 0; }
+    .container .top .fa.fa-bars {
+      display: none; }
+    .container .menu__list {
+      display: flex; } }
